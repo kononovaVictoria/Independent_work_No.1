@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<LabelDecoration name="Декорация1" id="1">
+			<TextColor>style:FormTextColor</TextColor>
+			<Font faceName="Times New Roman" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Самостоятельная работа №1</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="3"/>
+		</LabelDecoration>
+		<LabelDecoration name="Декорация4" id="16">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнила: Кононова В.Ю.</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация4КонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="18"/>
+		</LabelDecoration>
+		<LabelDecoration name="ТекстЗаданий" id="13">
+			<TextColor>style:FormTextColor</TextColor>
+			<Font faceName="Arial" height="0" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст заданий</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ТекстЗаданийКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТекстЗаданийРасширеннаяПодсказка" id="15"/>
+		</LabelDecoration>
+		<LabelDecoration name="Декорация2" id="19">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1. Создать функцию, которая выводит факториал заданного числа. Факториал должен вычисляться с помощью рекурсии. Должна быть предусмотрена проверка вычисления факториала с помощью цикла.
+
+2. Проинициалировать три переменные: а) СтудентФИО- записать в переменную строку с полным ФИО студента (например: "Петров Пётр Петрович"); б) ДатаРожденияСтудента - записать дату рождения; в) ВозрастСтудента - число полных лет. Вывести на экран сообщение в следующем формате : "Студент Петров П.П. 1980 г.р. 42 года".
+
+3. Создать функцию, которая возводит число в степень. В функции два аргумента. Первый аргумент - число, которое нужно возвести в степень. Второй аргумент - степень числа. Реализовать через умножение. Использовать функцию возведения в степень для проверки.
+
+4. Написать функцию, которая в зависимости от типа переданного параметра выводит сообщение.
+Если типы "число", "строка", "дата", то сообщение: "Данный параметр имеет тип " и далее название типа.
+Если тип "булево", то сообщение: "Данный параметр может принимать значение "истина" или "ложь".
+Если другой тип, то сообщение: "тип не определен".
+
+5. Самостоятельно ознакомиться с конструкцией Попытка–Исключение– КонецПопытки. Привести примеры использования.
+
+6*. Ознакомиться с определениями "Функция", "Процедура" в синтаксис-помощнике.</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация2КонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="21"/>
+		</LabelDecoration>
+		<LabelDecoration name="Декорация3" id="7">
+			<TextColor>#0000FF</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Для продолжение работы выберите в меню "Сервис" нужное задание.</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация3КонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="9"/>
+		</LabelDecoration>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ОбработкаПриветствие</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+</Form>
